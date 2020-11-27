@@ -1,0 +1,19 @@
+{
+  "name": "apirestnode",
+  "version": "1.0.0",
+  "description": "Minha primeira aplicação REST em NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Agnaldo de Miranda Correia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.4.1",
+    "sequelize": "^6.3.5",
+    "body-parser": "^1.19.0"
+  }
+}
